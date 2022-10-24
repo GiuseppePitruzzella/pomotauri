@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #info {
+            position: absolute;
+            color: white;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            z-index: 100;
+            display:block;
+        }
+    </style>
+    
+    <script type="importmap"> 
+    {
+        "imports": {
+            "three": "../node_modules/three/build/three.module.js",
+            "OrbitControls": "../node_modules/three/examples/jsm/controls/OrbitControls.js",
+            "Color": "../node_modules/three/src/math/Color.js",
+            "Scene": "../node_modules/three/src/scenes/Scene.js",
+            "PerspectiveCamera": "../node_modules/three/src/cameras/PerspectiveCamera.js",
+            "WebGLRenderer": "../node_modules/three/src/renderers/WebGLRenderer.js",
+            "RGBELoader": "../node_modules/three/examples/jsm/loaders/RGBELoader.js",
+            "EffectComposer": "../node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+            "RenderPass": "../node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+            "UnrealBloomPass": "../node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- TODO: Horizontal Menu Bar, Timer, Bottom text to explain functionalitìy, avoid zoom in render -->
+    <div id="info">Press <i>Space</i> to start a Pomodoro!</div>
+    <script type="module" src="src/script.js"></script>
+    <script type="module" src="src/timing.js"></script>
+</body>
+</html>
