@@ -8,6 +8,7 @@ import { RGBELoader } from "RGBELoader";
 import { EffectComposer } from "EffectComposer";
 import { RenderPass } from "RenderPass";
 import { UnrealBloomPass } from "UnrealBloomPass";
+import { TWEEN } from "TWEEN";
 import { BoxGeometry, CylinderGeometry, DoubleSide, Group, Mesh, MeshStandardMaterial, RingGeometry, Vector2, Vector3, Matrix4, Euler } from "three";
 
 const scene = new Scene();
@@ -108,7 +109,24 @@ window.addEventListener("mousemove", (e) => {
         // renderer.render(scene, camera);
         composer.render();
     })
+
+    // introAnimation();
 })();
+
+// function introAnimation() {
+//     controls.enabled = false //disable orbit controls to animate the camera
+    
+//     new TWEEN.Tween(camera.position.set(0, 0, 5)).to({
+//         x: 10,
+//         y: 10,
+//         z: 10
+//     }, 100)
+//     .easing(TWEEN.Easing.Quadratic.InOut).start()
+//     .onComplete(function () {
+//         controls.enabled = true;
+//         TWEEN.remove(this);
+//     })
+// }
 
 function rotateLine(line, angle, ringRotation, topTranslation, depthTranslation) {
     let tmatrix  = new Matrix4().makeTranslation(0, topTranslation, depthTranslation);
