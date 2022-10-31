@@ -35,7 +35,7 @@
     <h1>🍅</h1>
   </a>
 
-<h3 align="center">Pepper Gateway</h3>
+<h3 align="center">Pomotauri</h3>
 
   <p align="center">
     Project Description
@@ -74,7 +74,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,18 +81,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
+Pomotauri 🍅 is a pomodoro application made in Tauri.
 <p align="right">(<a href="#readme-top">Back to 🔝</a>)</p>
 
 
 
 ### Built With
 
-* [![Python][Python.org]][JQuery-url]
+<!-- [![Python][Python.org]][JQuery-url] -->
 
 <p align="right">(<a href="#readme-top">Back to 🔝</a>)</p>
 
@@ -106,16 +101,17 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+...
 
-First you need to download a Python SDK for Pepper, [PyNaoqi](http://doc.aldebaran.com/2-5/dev/python/install_guide.html).
-
+<!--
 This is an example of how to list things you need to use the software and how to install them.
   ```sh
   make build
   ```
+-->
 
 ### Installation
-
+<!--
 1. Clone the repo
    ```sh
    git clone https://github.com/GiuseppePitruzzella/pomotauri.git
@@ -128,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    make run
    ```
-
+-->
 <p align="right">(<a href="#readme-top">Back to 🔝</a>)</p>
 
 
@@ -174,17 +170,6 @@ Distributed under the GNU GPLv3 License. See `LICENSE.txt` for more information.
 ## Contact
 
 Project Link: [https://github.com/GiuseppePitruzzella/pomotauri](https://github.com/GiuseppePitruzzella/pomotauri)
-
-<p align="right">(<a href="#readme-top">Back to 🔝</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">Back to 🔝</a>)</p>
 
