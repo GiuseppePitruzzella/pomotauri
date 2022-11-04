@@ -60,7 +60,7 @@ document.body.onkeyup = function(e) {
         pomodoroTimer.start();
         var _ = setInterval(() => {
             const timeInSeconds = Math.round(pomodoroTimer.getTime() / 1000);
-            console.log(timeInSeconds);
+            document.getElementById('timer').innerHTML = timeInSeconds;
             if (timeInSeconds / 60 === 1) {
                 pomodoroTimer.stop();
                 console.log("Time is up!");
